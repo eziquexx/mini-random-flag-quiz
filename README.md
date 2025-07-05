@@ -1,81 +1,97 @@
-# JELEE Mini Project - Country Flag Guessing Game
-나라별 국기 맞추는 객관식 형태의 심플한 게임입니다.<br>
-(현재 국기는 많이 등록되어 있지 않습니다.)
+# 🏁🌍❓ 국가별 국기 맞추기 게임
+> 학원 수업 시간에 배운 class 객체를 활용하여 만든 나라별 국기 맞추기 게임입니다.<br>
+> 객관식 형태이며 누구나 재밌게 게임을 즐길 수 있습니다.<br>
+> (현재 국기는 많이 등록되어 있지 않습니다.)
+```
+- 개발 기간: 24.06.29 ~ 24.07.01
+- 목적: class 객체를 활용하여 무언가를 만들어 보는 경험을 쌓고, 코드 활용 및 스스로 생각하는 힘을 기르기 위함.
+```
+---
 
-:star: [JELEE Notion (Click!)](https://dev-jelee.notion.site/dev-jelee-5686cfa35c1b4c859a27de25d5fad5dd?pvs=4) 로 이동하면 해당 프로젝트 또는 다른 프로젝트의 내용과 저의 이력서를 볼 수 있습니다. :star:
+## 🧩 구현 기능
+1. 랜덤 국기: 랜덤으로 국기를 출력
+2. 객관식 4지선다형: 정답 1개를 포함한 4개의 객관식 출력 
+3. 정답 결과: 알림창으로 오답, 정답 출력
+4. 다시 시작: 새로운 국기가 랜덤으로 출력
+5. 데이터: 국기 이미지는 해당 저장소에 img 폴더에 저장
 
-<br/>
+---
 
-## 	:speech_balloon: 프로젝트 소개
-학원 수업 시간에 배운 class 객체를 활용하여 만든 나라별 국기 맞추기 게임입니다. 
-객관식 형태이며 누구나 재밌게 게임을 즐길 수 있습니다.
-> [!CAUTION]
-> 경고: 이 미니 프로젝트는 상업적인 용도가 아닙니다.
-
-<br/>
-
-## :walking: 프로젝트 목적
-- class 객체를 활용하여 무언가를 만들어 보는 경험을 쌓기 위함.
-- 코드 활용 및 스스로 생각하는 힘을 기르기 위함.
-
-<br/>
-
-## :calendar: 개발 기간
-2024-06-29 ~ 2024-07-01
-- 하루 4시간씩, 총 3일 걸림.
-
-<br/>
-
-## 	:star: 프로그래머
-- JELEE
-
-<br/>
-
-## :computer: 개발 환경
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
-- Visual Studio Code
-- GitHub
-- GitHub Pages
-
-<br/>
-
-## :clipboard: 기술 스택
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+## 🛠 사용 기술 스택
 - HTML5
 - CSS3
 - JavaScript
+- Tools: VS Code, Git & GitHub, GitHub Pages
 
-<br/>
+---
 
-## UX/UI 완성
+## 🎬 배포 & 데모
+🚀 [배포 사이트 바로가기](https://eziquexx.github.io/mini-random-flag-quiz/) - GitHub Pages로 배포
+
+👉 [데모 영상 보러가기](https://youtu.be/YYcma7m-vL0) - CLI로 도서 등록/검색/조회/삭제 데모 영상
+
+---
+
+## 📘 프로젝트 상세 기록 (블로그)
+👉 [포스팅 보러가기](https://dev-jelee.tistory.com/entry/toy-project-Library-Book-Manager-CLI-Java) - 티스토리에 올린 포스트
+
+---
+
+## 📁 디렉토리 구조
+
+```
+📂 mini-random-flag-quiz/
+├── index.html                // 메인 화면 (앱 진입점)
+├── src/
+│   ├── randomFlag.js         // 깃발 객체와 랜덤 로직
+│   ├── randomFlagStyle.css   // 스타일(CSS)
+│   └──img/                   // 깃발 이미지 모음
+│      ├── flag01.png
+│      ├── ...
+│      └── flag26.png
+└── README.md
+```
+
+---
+
+## 🖼️ UX/UI
 <div>
-  <span>국기 맞추기 게임 화면 ▼</span><br/>
-  <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F88f41c08-964b-40ac-b3af-41d7c59069dc%2F1d3de2da-da76-4656-9ae9-4c0e33f72e9b%2FUntitled.png?table=block&id=a2d30513-75a6-4d68-aff7-06bc2452a4ff&spaceId=88f41c08-964b-40ac-b3af-41d7c59069dc&width=2000&userId=13ecba7f-2c86-40b5-b242-b399280ff4b8&cache=v2" alt="국기 맞추기 게임 화면" style="width:48%;">
+  <span>▼▼ 국기 맞추기 게임 화면 ▼▼</span><br/>
+  <img src="https://github.com/eziquexx/mini-random-flag-quiz/blob/develop/src/uiImage/ui01.png" alt="국기 맞추기 게임 화면" style="width:48%;">
 </div>
 <div>
-  <span>국기 맞추기 게임 화면-정답 화면 ▼</span><br/>
-  <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F88f41c08-964b-40ac-b3af-41d7c59069dc%2F9eed6a97-ba9e-443c-9d20-417b17f6925a%2FUntitled.png?table=block&id=e5f2639a-509e-4660-b243-596c5ca0f4eb&spaceId=88f41c08-964b-40ac-b3af-41d7c59069dc&width=2000&userId=13ecba7f-2c86-40b5-b242-b399280ff4b8&cache=v2" alt="국기 맞추기 게임 화면, 정답 화면" style="width:48%;">
+  <span>▼▼ 국기 맞추기 게임 화면-정답 화면 ▼▼</span><br/>
+  <img src="https://github.com/eziquexx/mini-random-flag-quiz/blob/develop/src/uiImage/ui02.png" alt="국기 맞추기 게임 화면, 정답 화면" style="width:48%;">
 </div>
-  
-<br/>
 
-## :gear: 주요 기능
-- 국기 이미지가 무작위로 화면에 나옵니다.
-- 객관식은 4지선다형로, 하나를 선택하면 정답 또는 오답이라는 팝업창이 뜹니다.
-- 다시 시작 버튼을 클릭하면 랜덤으로 국기 이미지가 나옵니다. 이때, 국기는 이전 국기를 제외한 나머지 국기 중에서 하나가 랜덤으로 화면에 나옵니다.
-
-<br/>
+---
 
 ## :eyes: 개발 참고 자료
 - 국기 이미지와 객관식 4지선다는 무작위로 나와야 하기 때문에 무작위로 섞어서 배열에 담는 기능을 검색하여 참고하였습니다.
   - [StackOverflow](https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array)
   - [StackOverflow](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
 
-<br/>
+---
 
-## :label: 저작권 및 사용권 정보
-- 개인 미니 프로젝트이며 상업적이 용도가 아닙니다.
+## 💻 실행 방법 (VS Code 기준 설명)
+```
+# 시스템 요구사항
+- VS Code 기준으로, extentions에서 'Live Server'를 설치해야 한다.
+
+# 1. 저장소 클론
+git clone https://github.com/eziquexx/mini-random-flag-quiz.git
+
+# 2. 프로젝트 디렉토리로 이동
+cd mini-random-flag-quiz
+
+# 3. Live Server 실행 (3가지 방법)
+(1) alt + n, o (alt 누른 상태에서 n과 o를 순서대로 누르기)
+(2) 우측 하단에 Go Live 클릭
+(3) index.html 파일 도큐먼트에서 마우스 우 클릭 > Open With Live Server 클릭
+
+# 4. 웹브라우저 접속
+(1) 일반적으로 Live Server 실행하면 자동으로 브라우저 창이 뜬다.
+(2) 만약에 뜨지 않으면 localhost:5500 으로 접속 or 설정된 포트로 접속
+```
+
+---
