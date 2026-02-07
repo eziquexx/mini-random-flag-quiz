@@ -50,15 +50,13 @@
 
 ---
 
-## 🎬 배포 & 데모
+## 🎬 배포
 🚀 [배포 사이트 바로가기](https://eziquexx.github.io/mini-random-flag-quiz/) - GitHub Pages로 배포
-
-👉 [데모 영상 보러가기](https://youtu.be/YYcma7m-vL0) - CLI로 도서 등록/검색/조회/삭제 데모 영상
 
 ---
 
-## 📘 프로젝트 상세 기록 (블로그)
-👉 [포스팅 보러가기](https://dev-jelee.tistory.com/entry/toy-project-Library-Book-Manager-CLI-Java) - 티스토리에 올린 포스트
+## 📘 프로젝트 상세 기록 (노션)
+👉 [상세 보러가기](https://dev-jelee.notion.site/2c4d0316bc6881a6819bddece8908a10) 
 
 ---
 
