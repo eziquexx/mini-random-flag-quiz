@@ -13,7 +13,6 @@ export function Game() {
     const [score, setScore] = useState<number>(0); // 점수
     const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null); // 사용자가 선택한 답
     const [isCorrect, setIsCorrect] = useState<boolean | null>(null); // 정답 여부
-    const [gameFinished, setGameFinished] = useState(false); // 게임 종료 여부
     const [choiceNum, setChoiceNum] = useState<boolean>(false); // 답 선택 요청
     const navigate = useNavigate();
     
@@ -62,9 +61,7 @@ export function Game() {
 
         if (currentIndex < quizSet.length - 1) {
             setCurrentIndex((prev) => prev + 1);
-        } else {
-            setGameFinished(true);
-        }
+        } 
     }
 
     // 결과

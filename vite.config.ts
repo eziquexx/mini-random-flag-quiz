@@ -10,5 +10,5 @@ export default defineConfig({
     babel({ presets: [reactCompilerPreset()] }),
     tailwindcss(),
   ],
-  base: "/https://eziquexx.github.io/mini-random-flag-quiz/",
+  base: "https://eziquexx.github.io/mini-random-flag-quiz/",
 })
