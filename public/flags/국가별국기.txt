@@ -20,9 +20,8 @@ flag17-Egypt
 flag18-Bangladesh
 flag19-Cameroon
 flag20-SouthAfrica
-flag21-Australia
-flag22-NorthKorea
-flag23-Mongolia
-flag24-Thailand
-flag25-Vietnam
-flag26-Cambodia
+flag21-NorthKorea
+flag22-Mongolia
+flag23-Thailand
+flag24-Vietnam
+flag25-Cambodia
