@@ -18,7 +18,7 @@ export const QuizButton = ({
     hasAnswered //답 선택 여부
 }: QuizButtonProps) => {
 
-    let buttonClass = "w-full p-4 border rounded-xl text-base font-semibold transition-all duration-200 text-center ";
+    let buttonClass = "w-full p-4 border rounded-xl text-sm sm:text-base font-semibold transition-all duration-200 text-center ";
 
     if (hasAnswered) {
 

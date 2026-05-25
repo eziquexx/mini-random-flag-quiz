@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const Home = () => {
     return (
-        <div className="p-4 w-full flex flex-col justify-center items-center">
+        <div className="p-4 w-full mt-[20px] sm:mt-[0px] flex flex-col justify-center items-center">
             <div className="w-full p-4 text-center grid gap-4">
                 <h1 className="text-3xl font-bold text-center ">깃발 맞추기 게임</h1>
                 <p>세계 여러 나라의 깃발을 보고 나라 이름을 맞추는 게임입니다.</p>

@@ -83,9 +83,9 @@ export function Game() {
             </div>
             
             {/* 정답 표시 */}
-            <div className="w-full rounded-xl bg-gray-100 px-20 py-6 my-4 text-center">
-                <h3 className="text-lg font-semibold">정답 표시</h3>
-                <div className="mt-2 h-10 text-md leading-10">
+            <div className="w-full rounded-xl bg-gray-100 px-20 py-4 sm:py-6 my-0 sm:my-4 text-center">
+                <h3 className="text-md sm:text-lg font-semibold">정답 표시</h3>
+                <div className="mt-2 h-8 sm:h-10 text-sm sm:text-md leading-8 sm:leading-10">
                     {isCorrect === null ? "" : isCorrect ? (
                         <p className="text-green-500">정답입니다!</p>
                     ) : (
@@ -98,10 +98,10 @@ export function Game() {
             {/* 문제 표시 */}
             <div 
                 className="
-                    px-20 py-12 my-4 flex flex-col items-center gap-8
+                    px-20 py-0 sm:py-12 my-4 flex flex-col items-center gap-5 sm:gap-8
                     bg-white rounded-xl w-full sm:border border-gray-300
                     border-0">
-                <div className="w-full grid gap-4 text-sm text-gray-600 text-center">
+                <div className="w-full grid gap-2 sm:gap-4 text-sm text-gray-600 text-center">
                     <h3>맞춘 개수 {score} / {quizSet.length}</h3>
                     <h3>문제 {currentIndex +1} / {quizSet.length}</h3>
                 </div>
@@ -130,21 +130,23 @@ export function Game() {
             </div>
 
             {/* 다음 버튼 */}
-            {currentIndex < quizSet.length - 1 ? (
-                <button 
-                    onClick={handleNextClick}
-                    className="bg-blue-500 hover:bg-blue-700 text-white text-lg font-bold py-3 px-6 mt-4 rounded-lg"
-                >
-                    다음 문제
-                </button>
-            ) : (
-                <button 
-                    onClick={navigateToResult}
-                    className="bg-blue-500 hover:bg-blue-700 text-white text-lg font-bold py-3 px-6 mt-4 rounded-lg"
-                >
-                    결과보러 가기
-                </button>
-            )}
+            <div className="mt-4 mb-30 sm:mb-0">
+                {currentIndex < quizSet.length - 1 ? (
+                    <button 
+                        onClick={handleNextClick}
+                        className="bg-blue-500 hover:bg-blue-700 text-white text-lg font-bold py-3 px-6 rounded-lg"
+                    >
+                        다음 문제
+                    </button>
+                ) : (
+                    <button 
+                        onClick={navigateToResult}
+                        className="bg-blue-500 hover:bg-blue-700 text-white text-lg font-bold py-3 px-6 rounded-lg"
+                    >
+                        결과보러 가기
+                    </button>
+                )}
+            </div>
         </div>
     );
 }
