@@ -2,23 +2,17 @@
 
 랜덤으로 표시되는 국기를 보고 국가를 맞추는 퀴즈 게임입니다.
 
-## 배포 링크 (Demo)
+## 데모 링크 (Demo)
 
 https://eziquexx.github.io/mini-random-flag-quiz/
 
 ## 기술 스택 (Tech Stack)
 
-### Frontend
-- React
-- Vite
-- JavaScript
-
-### Deployment
-- GitHub Pages
-
-### Version Control
-- Git
-- GitHub
+| 분야 | 사용 기술 |
+|------|-----------|
+| Frontend | React · Vite · JavaScript |
+| Deployment | GitHub Pages |
+| Version Control | Git · GitHub |
 
 ## 주요 기능 (Features)
 
@@ -29,7 +23,10 @@ https://eziquexx.github.io/mini-random-flag-quiz/
 
 ## 스크린샷 (Screenshots)
 
-img...
+<p align="left">
+  <img src="https://github.com/eziquexx/mini-random-flag-quiz/blob/v2/src/assets/demo-01.png?raw=true" width="45%">
+  <img src="https://github.com/eziquexx/mini-random-flag-quiz/blob/v2/src/assets/demo-02.png?raw=true" width="45%">
+</p>
 
 ## 프로젝트 구조 (Project Structure)
 
